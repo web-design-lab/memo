@@ -23,5 +23,5 @@
 
 ---
 
-> ※日程のすり合わせや事前の質問・連絡はすべてInstagramのDMで行います。
+> ※日程のすり合わせは、InstagramのDMで行います。
 > [《Instagram》@sakurai.webdesign](https://www.instagram.com/sakurai.webdesign/)
