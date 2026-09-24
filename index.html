@@ -5,13 +5,24 @@
   <title>レッスン共有メモ</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    /* サイドバーを消した後に本文をすっきり中央配置にする調整 */
+    .content {
+      padding-top: 20px;
+    }
+    .markdown-section {
+      max-width: 640px !important;
+      margin: 0 auto !important;
+      padding: 30px 20px !important;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
       name: 'レッスン共有メモ',
-      // README.md をそのままトップとして読み込みます
+      hideSidebar: true // ← これでサイドバー（目次）が完全に消えます
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
